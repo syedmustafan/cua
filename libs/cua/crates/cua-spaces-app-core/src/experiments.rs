@@ -197,7 +197,7 @@ pub fn new_ui_default(channel: UpdateChannel, version: &str) -> bool {
         return false;
     };
     let at_least = |from: &str| Version::parse(from).is_some_and(|f| v >= f);
-    at_least(NEW_UI_ALL_FROM) || (channel == UpdateChannel::Beta && at_least(NEW_UI_BETA_FROM))
+    at_least(NEW_UI_ALL_FROM) || (channel != UpdateChannel::Stable && at_least(NEW_UI_BETA_FROM))
 }
 
 /// The New UI choice a row's option makes: `Some(on)` for the New UI's

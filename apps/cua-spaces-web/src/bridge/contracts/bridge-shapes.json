@@ -28,7 +28,8 @@
         "channel": {
           "enum": [
             "stable",
-            "beta"
+            "beta",
+            "nightly"
           ]
         },
         "lastCheck": {
@@ -38,6 +39,9 @@
           ]
         },
         "checking": {
+          "type": "boolean"
+        },
+        "nightly": {
           "type": "boolean"
         }
       },
@@ -2899,6 +2903,7 @@
               "enum": [
                 "stable",
                 "beta",
+                "nightly",
                 null
               ]
             },
@@ -4720,6 +4725,7 @@
           "enum": [
             "stable",
             "beta",
+            "nightly",
             null
           ]
         },
