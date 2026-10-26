@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.17.0](https://github.com/trycua/cua/compare/cua-spaces-v0.16.0...cua-spaces-v0.17.0) (2026-10-26)
+
+
+### Features
+
+* **spaces:** Sentry crash reporting for the desktop app + crash gate in auto rollout (CUA-2343) ([#6011](https://github.com/trycua/cua/issues/6011)) ([d991e3b](https://github.com/trycua/cua/commit/d991e3b4cc229881a6b5a3018956668a14b61e5b))
+* **spaces:** start a run and reply to it from the app (agents.start, agents.message) (CUA-2347) ([#6005](https://github.com/trycua/cua/issues/6005)) ([06afb7c](https://github.com/trycua/cua/commit/06afb7cda6cbc80e3aadbb7122a9d06338fc4f8f))
+
+
+### Bug Fixes
+
+* **spaces-macos:** install-local.sh says a locked Keychain is locked, not new (CUA-2213) ([#5883](https://github.com/trycua/cua/issues/5883)) ([fd93182](https://github.com/trycua/cua/commit/fd93182fcfee4f178e881cefb8e8cb9202f83150))
+* **spaces:** app icon keycap 20% larger inside the squircle (CUA-2369) ([#6017](https://github.com/trycua/cua/issues/6017)) ([97e96b0](https://github.com/trycua/cua/commit/97e96b00ab4f1ce78d58bf58b27ed99fddf722d0))
+* **spaces:** retry 'too many requests' and say so in plain words (CUA-2275) ([#5929](https://github.com/trycua/cua/issues/5929)) ([c421b1c](https://github.com/trycua/cua/commit/c421b1caa948c3f54f72425d70c0891ac08074d0))
+
+
+### Performance Improvements
+
+* **spaces:** a Space starting or stopping on another computer shows within a second, pushed by the daemon ([#5915](https://github.com/trycua/cua/issues/5915)) ([74a6057](https://github.com/trycua/cua/commit/74a6057dba1bbb04ff624ef92685366307f79e2d))
+
 ## [0.16.0](https://github.com/trycua/cua/compare/cua-spaces-v0.15.0...cua-spaces-v0.16.0) (2026-10-25)
 
 
